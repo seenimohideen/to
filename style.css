@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.bdy{
+    background-color: orangered;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.todo{
+    position: relative;
+    left: 43%;
+    
+    margin-top: 10%;
+    
+}
+.inputs-btn{
+    display: flex;
+    background-color: aliceblue;
+    color: black;
+    padding: 10px;
+    gap: 10px;
+    width: 350px;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 12px 12px 12px 1px rgba(0, 0, 225, .2);
+}
+
+
+.inputs-btn input{
+    border: none;
+    color: orangered;
+    padding: 20px;
+    background-color: aliceblue;
+    border-color: aliceblue;
+    width: 250px;
+}
+.inputs-btn button{
+    color: aliceblue;
+    background-color: orangered;
+    width: 80px;
+    border-radius: 30px;
+    border: none;
+}
+.inputs-btn button:hover{
+    letter-spacing: 3px;
+    box-shadow: orangered 0px 7px 17px 0px;
+    color: black;
+}
+.inputs-btn button:active{
+    letter-spacing: 3px;
+    box-shadow: orangered 0px 7px 17px 0px;
+    color: black;
+    transform: translatey(5px);
+}
+.leo{
+    margin: 30px;
+    background-color: aliceblue;
+    color: orangered;
+    width: 350px;
+    position: relative;
+    right: 25px;
+    padding: 20px;
+    box-shadow: 12px 12px 12px 1px rgba(0, 0, 225, .2);
+    border-radius: 30px;
+}
+.leo button{
+    position: relative;
+    left: 60%;
+    background-color: orangered;
+    border: none;
+    width: 75px;
+    padding: 10px ;
+    border-radius:30px ;
+    position: fixed;
+
+
+    color: aliceblue;
+}
+.leo button:hover{
+    letter-spacing: 3px;
+    box-shadow: orangered 0px 7px 17px 0px;
+    
+    color: black;
+
+}
+.leo button:active{
+    letter-spacing: 3px;
+    box-shadow: orangered 0px 7px 17px 0px;
+    color: black;
+    transform: translatey(5px);
+
+}
